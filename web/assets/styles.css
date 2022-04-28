@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Wotfard-Regular";
+    font-style: normal;
+    src: url("/assets/fonts/wotfard-regular-webfont.woff2");
+}
+@font-face {
+    font-family: "Wotfard-Medium";
+    font-style: normal;
+    src: url("/assets/fonts/wotfard-medium-webfont.woff2");
+}
+@font-face {
+    font-family: "Wotfard-Light";
+    font-style: normal;
+    src: url("/assets/fonts/wotfard-light-webfont.woff2");
+}
+
+@layer base {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    span,
+    button {
+      @apply font-wotfardMed;
+    }
+    p,li, p>span{
+      @apply font-wotfardLight;
+    }
+}

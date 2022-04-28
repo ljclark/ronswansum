@@ -1,0 +1,19 @@
+columnSuffix: uuqocgsx
+contentColumnType: string(800)
+fieldGroup: 02609816-079d-42ba-9e66-74970e79b53a # Netflix
+handle: episodeSummary
+instructions: ''
+name: 'Episode Summary'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 200
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

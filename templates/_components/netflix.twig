@@ -1,0 +1,43 @@
+<div class="overflow-hidden px-4 bg-slate-900 lg:px-10 mt-16 py-12">
+  <h3 class="text-center pb-14 pt-4 text-3xl font-extrabold text-white ">Go on, just 1 episode while you're here.</h3>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-px lg:max-w-7xl shadow divide-y divide-gray-200 sm:divide-y-0 mx-auto">
+
+    {% set netflixEpisodes = craft.entries.section('netflix').limit(6).orderBy('episodeNumber DESC').all %}
+
+    {% for episode in netflixEpisodes %}
+        {% switch loop.index %}
+          {% case 1 %}
+            {% set corners = 'rounded-tl-lg rounded-tr-lg sm:rounded-tr-none' %}
+          {% case 2 %}
+            {% set corners = 'sm:rounded-tr-lg' %}
+          {% case 3 %}
+            {% set corners = '' %}
+          {% case 4 %}
+            {% set corners = '' %}
+          {% case 5 %}
+            {% set corners = 'relative sm:rounded-bl-lg' %}
+          {% case 6 %}
+            {% set corners = 'rounded-bl-lg rounded-br-lg sm:rounded-bl-none' %}
+        {% endswitch %}
+
+          <div class="{{corners}} relative group bg-slate-200 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 hover:bg-slate-100 transition ease-in-out duration-300	">
+        <div class="mt-8">
+          <span class="inline-flex items-center px-3 py-1.5 rounded-md text-xs font-medium bg-slate-900 text-slate-300 mb-3">{{episode.episodeNumber}}</span>
+          <h3 class="text-lg font-medium">
+            <a href="{{episode.episodeLink}}" class="focus:outline-none" target="blank" title="Watch episode {{episode.episodeNumber}} on Netflix">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              {{episode.title}}
+            </a>
+          </h3>
+          <p class="mt-2 text-sm text-gray-600">{{episode.episodeSummary}}</p>
+        </div>
+        <span class="pointer-events-none transition ease-in-out duration-300 absolute top-6 right-6 text-gray-800  group-hover:scale-[1.2]" aria-hidden="true">
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+          </svg>
+        </span>
+      </div>
+    {% endfor %}
+
+  </div>
+</div>

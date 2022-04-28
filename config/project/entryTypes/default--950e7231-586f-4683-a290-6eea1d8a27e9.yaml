@@ -1,0 +1,47 @@
+fieldLayouts:
+  a4586279-3e67-4e3b-9c4d-18f24b12b13c:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6c456495-7722-4ac1-a6ee-0a40592ae15c # Quote
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: default
+hasTitleField: false
+name: Default
+section: a2ac484d-6514-492b-ac8c-2efc8d3cd80a # Ron Swanson Quotes
+sortOrder: 1
+titleFormat: '{id}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,41 @@
+defaultPlacement: end
+fieldLayouts:
+  b388cf72-af3e-434e-8a30-b1770d508640:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: characters
+name: Characters
+siteSettings:
+  551418a0-4fca-4722-8239-21583583a0bb: # Ron Swansum
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: 9ca361b6-4c42-4a85-b8ea-53f24adb0ff1

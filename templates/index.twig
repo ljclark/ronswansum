@@ -1,0 +1,14 @@
+{% extends "_layout" %}
+{% block content %}
+
+<div id="mainContent">
+		<main>
+			{% include "_components/header" %}
+			{{ sprig('_components/load-more', {'limit': 1}) }}
+			{% include "_components/netflix" %}
+		</main>
+
+		{% include "_components/footer" %}
+</div>
+
+{% endblock %}

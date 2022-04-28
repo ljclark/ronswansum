@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: ronSwansonQuotes
+name: 'Ron Swanson Quotes'
+propagationMethod: all
+siteSettings:
+  551418a0-4fca-4722-8239-21583583a0bb: # Ron Swansum
+    enabledByDefault: true
+    hasUrls: true
+    template: quotes/_entry
+    uriFormat: '{slug}'
+type: channel

@@ -1,0 +1,19 @@
+columnSuffix: azozthmk
+contentColumnType: text
+fieldGroup: 66d665cb-d7e5-4ee1-9fdf-a741325a53d3 # Common
+handle: quote
+instructions: ''
+name: Quote
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

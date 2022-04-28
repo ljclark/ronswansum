@@ -1,0 +1,14 @@
+{
+  "name": "ron-swansum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lewis Clark",
+  "license": "ISC",
+  "dependencies": {
+    "clipboard": "^2.0.10"
+  }
+}
