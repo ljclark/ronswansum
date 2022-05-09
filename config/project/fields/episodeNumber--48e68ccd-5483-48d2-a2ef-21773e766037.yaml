@@ -2,16 +2,16 @@ columnSuffix: povxksho
 contentColumnType: text
 fieldGroup: 02609816-079d-42ba-9e66-74970e79b53a # Netflix
 handle: episodeNumber
-instructions: 'i.e S3/E6'
-name: 'Episode Number'
+instructions: "i.e S3/E6"
+name: "Episode Number"
 searchable: false
 settings:
   byteLimit: null
   charLimit: null
-  code: ''
+  code: ""
   columnType: null
-  initialRows: '4'
-  multiline: ''
+  initialRows: "4"
+  multiline: ""
   placeholder: null
   uiMode: normal
 translationKeyFormat: null

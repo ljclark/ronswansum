@@ -1,24 +1,24 @@
 dateModified: 1651008041
 email:
   fromEmail: lewis@wearenorthward.studio
-  fromName: 'Ron Swansum'
+  fromName: "Ron Swansum"
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    3c839c20-2a74-47be-b47a-5285483095b6: 'Ron Swansum' # Ron Swansum
+    3c839c20-2a74-47be-b47a-5285483095b6: "Ron Swansum" # Ron Swansum
     6c456495-7722-4ac1-a6ee-0a40592ae15c: Quote # Quote
     013b690b-95c8-4ec5-a1d3-a1fa5b77e885: Default # Default
     043e5df9-c995-4f2c-81e4-02d260c771a2: Netflix # Netflix
-    48e68ccd-5483-48d2-a2ef-21773e766037: 'Episode Number' # Episode Number
+    48e68ccd-5483-48d2-a2ef-21773e766037: "Episode Number" # Episode Number
     66d665cb-d7e5-4ee1-9fdf-a741325a53d3: Common # Common
-    571f3e60-9b8a-41fc-b0e3-4d589b4c48b6: 'Character Relation' # Character Relation
+    571f3e60-9b8a-41fc-b0e3-4d589b4c48b6: "Character Relation" # Character Relation
     950e7231-586f-4683-a290-6eea1d8a27e9: Default # Default
-    551418a0-4fca-4722-8239-21583583a0bb: 'Ron Swansum' # Ron Swansum
+    551418a0-4fca-4722-8239-21583583a0bb: "Ron Swansum" # Ron Swansum
     02609816-079d-42ba-9e66-74970e79b53a: Netflix # Netflix
-    a2ac484d-6514-492b-ac8c-2efc8d3cd80a: 'Ron Swanson Quotes' # Ron Swanson Quotes
-    c371a8b8-1c15-4380-b87c-00399aff0f39: 'Episode Link' # Episode Link
+    a2ac484d-6514-492b-ac8c-2efc8d3cd80a: "Ron Swanson Quotes" # Ron Swanson Quotes
+    c371a8b8-1c15-4380-b87c-00399aff0f39: "Episode Link" # Episode Link
     f6005fc9-4668-4a6c-bacd-6063be8ed1a5: Characters # Characters
-    fa5c5ce5-05e3-4c77-98a7-cf453f6069d0: 'Episode Summary' # Episode Summary
+    fa5c5ce5-05e3-4c77-98a7-cf453f6069d0: "Episode Summary" # Episode Summary
 plugins:
   sprig:
     edition: standard
@@ -27,7 +27,7 @@ plugins:
 system:
   edition: solo
   live: true
-  name: 'Ron Swansum'
+  name: "Ron Swansum"
   retryDuration: null
   schemaVersion: 3.7.33
   timeZone: Europe/London

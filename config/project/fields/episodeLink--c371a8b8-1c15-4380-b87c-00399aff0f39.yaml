@@ -2,11 +2,11 @@ columnSuffix: yyzirefh
 contentColumnType: string(255)
 fieldGroup: 02609816-079d-42ba-9e66-74970e79b53a # Netflix
 handle: episodeLink
-instructions: ''
-name: 'Episode Link'
+instructions: ""
+name: "Episode Link"
 searchable: false
 settings:
-  maxLength: '255'
+  maxLength: "255"
   placeholder: null
   types:
     - url

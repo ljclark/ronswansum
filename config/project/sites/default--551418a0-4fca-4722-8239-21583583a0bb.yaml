@@ -2,7 +2,7 @@ baseUrl: $PRIMARY_SITE_URL
 handle: default
 hasUrls: true
 language: en-GB
-name: 'Ron Swansum'
+name: "Ron Swansum"
 primary: true
 siteGroup: 3c839c20-2a74-47be-b47a-5285483095b6 # Ron Swansum
 sortOrder: 1

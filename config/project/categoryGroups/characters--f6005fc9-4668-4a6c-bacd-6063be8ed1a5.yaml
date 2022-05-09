@@ -2,10 +2,8 @@ defaultPlacement: end
 fieldLayouts:
   b388cf72-af3e-434e-8a30-b1770d508640:
     tabs:
-      -
-        elements:
-          -
-            autocapitalize: true
+      - elements:
+          - autocapitalize: true
             autocomplete: false
             autocorrect: true
             class: null
@@ -35,7 +33,7 @@ siteSettings:
   551418a0-4fca-4722-8239-21583583a0bb: # Ron Swansum
     hasUrls: true
     template: null
-    uriFormat: '{slug}'
+    uriFormat: "{slug}"
 structure:
   maxLevels: null
   uid: 9ca361b6-4c42-4a85-b8ea-53f24adb0ff1
